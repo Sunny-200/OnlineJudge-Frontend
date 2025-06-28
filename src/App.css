@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1b0036;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-container {
+  min-height: 100vh;
+  background-image: url("https://www.transparenttextures.com/patterns/circuits.png");
+  background-repeat: repeat;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.navbar {
+  background-color: #1a1a1a;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.red-text {
+  color: red;
+}
+
+.nav-links a {
+  color: white;
+  margin-left: 16px;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.home {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.cat-img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.desc {
+  margin: 8px 0;
+}
+
+.go-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.go-button:hover {
+  background-color: #e60000;
+}
+
+.logout-btn {
+  background: red;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+.logout-btn:hover {
+  background-color: darkred;
+}
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
   }
-  to {
-    transform: rotate(360deg);
+
+  .nav-links {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .nav-links a,
+  .logout-btn {
+    margin-left: 0;
+    margin-top: 10px;
   }
 }
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 16px;
+  font-weight: bold;
+  color: lightgreen;
+}
+
+

@@ -1,0 +1,85 @@
+.contribute-container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #1b0036;
+  padding: 30px;
+  border-radius: 12px;
+  color: white;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: white;
+  font-weight: 700;
+}
+
+.problem-form .form-group {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.problem-form label {
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.problem-form input,
+.problem-form textarea,
+.problem-form select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background: #f4f4f4;
+  color: black;
+}
+
+.problem-form textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.test-cases-section {
+  margin-top: 30px;
+}
+
+.testcase-box {
+  border: 1px solid #3b0055;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background: #2b0055;
+}
+
+.add-btn {
+  background: #4d4dff;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+}
+
+.add-btn:hover {
+  background: #6666ff;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #e60000;
+  color: white;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+.submit-btn:hover {
+  background-color: #ff1a1a;
+}
