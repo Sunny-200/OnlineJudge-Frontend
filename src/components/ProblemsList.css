@@ -1,0 +1,41 @@
+.problems-container {
+  padding: 20px;
+  color: white;
+}
+
+.problems-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1b0036;
+}
+
+.problems-table th,
+.problems-table td {
+  padding: 12px;
+  border: 1px solid #333;
+}
+
+.problems-table th {
+  background-color: #000;
+}
+
+.problems-table tr:nth-child(even) {
+  background-color: #2b0046;
+}
+
+.problems-table tr:hover {
+  background-color: #3b0056;
+}
+
+.problems-table a {
+  color: #4dabf7;
+  text-decoration: none;
+}
+.problems-table a:hover {
+  text-decoration: underline;
+}
+.tick {
+  font-size: 18px;
+  color: green;
+}
+

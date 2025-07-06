@@ -1,0 +1,54 @@
+.problem-details-container {
+  padding: 20px;
+  background-color: #18002d;
+  color: white;
+}
+
+textarea {
+  width: 100%;
+  background: #0f0f0f;
+  color: #eee;
+  font-family: monospace;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 6px;
+}
+
+.editor-section {
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: #cc0000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #e60000;
+}
+
+pre {
+  background: #222;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+select {
+  background: #333;
+  color: white;
+  border: 1px solid #555;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.editor-section label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
